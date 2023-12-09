@@ -1,6 +1,6 @@
 /**
  * @name Windows 11 Style
- * @description A theme that mimics the general style of Windows 11 UI.
+ * @description A theme that mimics the style of Windows 11 UI.
  * @source https://github.com/mxrphyyy/test-chat-gpt-bd-theme/windows11-style.css
  * @invite YOUR_DISCORD_INVITE_LINK
  * @version 1.0
@@ -8,7 +8,39 @@
 
 @import url('https://cdn.jsdelivr.net/gh/mxrphyyy/test-chat-gpt-bd-theme/windows11-style.css');
 
-/* Additional Customization (if needed) */
-:root {
-  /* Your custom variables and styles here */
+/* Adjustments for Windows 11 Style */
+/* Customize as needed */
+
+/* Top Bar Styles */
+header {
+    background-color: #2C2C2C; /* Windows 11 Dark Gray Top Bar */
 }
+
+/* Server List Styles */
+.container-2VW0UT {
+    background-color: #2C2C2C; /* Windows 11 Dark Gray Background */
+}
+
+/* Channel List Styles */
+.scroller-2FKFPG {
+    background-color: #1E1E1E; /* Windows 11 Darker Gray Background */
+}
+
+/* Chat Styles */
+/* Customize chat background, text color, etc. as needed */
+
+/* Member List Styles */
+.members-1998pB {
+    background-color: #2C2C2C; /* Windows 11 Dark Gray Background */
+}
+
+/* User Popout Styles */
+/* Customize user popout styles as needed */
+
+/* Other Styles */
+/* Customize other elements as needed */
+
+/* Scrollbar Styles */
+/* Customize scrollbar styles as needed */
+
+/* End of Windows 11 Style */
