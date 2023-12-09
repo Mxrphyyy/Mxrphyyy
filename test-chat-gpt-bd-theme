@@ -1,6 +1,6 @@
 /**
  * @name Windows 11 Mica
- * @description A theme that attempts to mimic the Mica frosted glass effect of Windows 11 UI.
+ * @description A simplified attempt to mimic the Mica frosted glass effect of Windows 11 UI.
  * @source https://github.com/mxrphyyy/test-chat-gpt-bd-theme/windows11-mica-theme.css
  * @invite YOUR_DISCORD_INVITE_LINK
  * @version 1.0
@@ -13,8 +13,8 @@
   /* Your custom variables and styles here */
 }
 
-/* Mica Effect - Requires JavaScript and may not work perfectly */
-:after, :before {
+/* Simplified Mica Effect */
+:after {
     content: "";
     position: fixed;
     z-index: -1;
@@ -23,6 +23,6 @@
     height: 100%;
     top: 0;
     left: 0;
-    box-shadow: inset 0 0 300px rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.1);
     filter: blur(10px);
 }
