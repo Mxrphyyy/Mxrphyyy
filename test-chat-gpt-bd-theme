@@ -1,28 +1,14 @@
 /**
- * @name Windows 11 Mica
- * @description A simplified attempt to mimic the Mica frosted glass effect of Windows 11 UI.
- * @source https://github.com/mxrphyyy/test-chat-gpt-bd-theme/windows11-mica-theme.css
+ * @name Windows 11 Style
+ * @description A theme that mimics the general style of Windows 11 UI.
+ * @source https://github.com/mxrphyyy/test-chat-gpt-bd-theme/windows11-style.css
  * @invite YOUR_DISCORD_INVITE_LINK
  * @version 1.0
 */
 
-@import url('https://cdn.jsdelivr.net/gh/mxrphyyy/test-chat-gpt-bd-theme/windows11-mica-theme.css');
+@import url('https://cdn.jsdelivr.net/gh/mxrphyyy/test-chat-gpt-bd-theme/windows11-style.css');
 
 /* Additional Customization (if needed) */
 :root {
   /* Your custom variables and styles here */
-}
-
-/* Simplified Mica Effect */
-:after {
-    content: "";
-    position: fixed;
-    z-index: -1;
-    pointer-events: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.1);
-    filter: blur(10px);
 }
